@@ -12,7 +12,7 @@ function Experience() {
                 </div>
                 <div className="vtimeline-block">
                     <span className="vtimeline-date">{work.duration}</span>
-                    <div data-date={work.duration}>
+                    <div data-date={work.duration} className="vtimeline-content">
                         <h3>{work.company}</h3>
                         <h4>{work.name}</h4>
                         <p>

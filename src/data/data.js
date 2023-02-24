@@ -25,15 +25,18 @@ const workExperience = [
   ];
 
 const projects = [
-    // projects can be added an removed
-    // if there are no projects, Projects section won't show up
     {
       name: 'Transportation guidance system',
       description:
         'Application to help users decide on the best cost/comfort/budget efficient way to reach a destination',
-      stack: ['Python', 'Java', 'Google Map API','Graph Algorithms', 'Docker', 'AWS EC2'],
+      stack: ['Python', 'Java', 'Google Maps API','Graph Algorithms', 'Docker', 'AWS EC2'],
       sourceCode: '#',
       livePreview: '#',
+      points: [
+        'Gathered Data for air, train, and bus transportation between major US cities',
+        'Used kth shortest path algorithm to find the top best ways to reach the destination based on user constraints',
+        'Created CI/CD pipeline to deploy the containerized application in AWS EC2'
+      ]
     },
     {
       name: 'Feedback portal',
@@ -42,23 +45,61 @@ const projects = [
       stack: ['Java', 'Spring-Boot', 'Hibernate', 'AWS-RDS', 'MySQL', 'Angualr', 'Apache Kafka', 'Google Kubernetes Engine', 'GCP'],
       sourceCode: '#',
       livePreview: '#',
-    },
-    {
-      name: 'Chat server to transfer messages between users',
-      description:
-        'established a fully duplexed communication between server and users using web sockets',
-      stack: ['Node.js', 'Express', 'web socket', 'React'],
-      sourceCode: '',
-      livePreview: '',
+      points:[
+        'Designed and created RESTful webservices',
+        'Containerized and deployed the applications on Kubernetes (used GKE)',
+        'Incorporated Kafka brokers to implement a real-time data pipeline',
+        'Used Hibernate ORM for persisting data in AWS RDS'
+      ]
     },
     {
       name: 'Exploratory Data Analysis',
-      description:
-        'Webscrapped data from web, performed Data wrangling activites and analysed the data to create a report',
+      description:'Explored EDGAR data and created a report based on the performed analysis',
       stack: ['Python', 'Google Collab'],
       sourceCode: '#',
-      
+      points:[
+        'Collected data by web scrapping from EDGAR official website URL',
+        'Performed Data wrangling on the raw data',
+        'Analyzed and created a report after extracting meaningful insights and patterns on the preprocessed data'        
+      ]  
     }
 ];
+
+const education = [{
+    name: 'Transportation Guidance System',
+    description: ''
+}]
+
+const skills = [
+    // skills can be added or removed
+    // if there are no skills, Skills section won't show up
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node.js',
+    'Webpack',
+    'HTML5',
+    'CSS3',
+    'SASS',
+    'Jest',
+    'Cypress',
+    'TypeScript',
+    'Express',
+    'MySQL',
+    'MongoDB',
+    'Python',
+    'Java 8',
+    'Java Spring Boot',
+    'Hibernate',
+    'Docker',
+    'Kubernetes',
+    'Apache Kafka',
+    'RESTful web services',
+    'Graph APIs',
+    'AWS',
+    'GCP',
+    'Git'
+];
   
-  export { projects, workExperience }
+  
+  export { projects, workExperience, skills }
