@@ -66,9 +66,17 @@ const projects = [
 ];
 
 const education = [{
-    name: 'Transportation Guidance System',
-    description: ''
-}]
+    university: 'George Mason University',
+    date: 'January 2021 - December 2022',
+    degree: 'M.S. in Computer Science',
+    description: 'Gained solid foundation in important topics related to software development -  designing and developing software systems that are distributed across multiple computers and networks, to assess and optimize the performance of software systems, building software systems using reusable software components, and an understanding of how to design and manage large-scale software systems'
+},
+{
+    university: 'Anna University',
+    date: 'August 2011 - May 2015',
+    degree: 'B.E in Electronics & Instrumentation',
+}
+]
 
 const skills = [
     // skills can be added or removed
@@ -102,4 +110,4 @@ const skills = [
 ];
   
   
-  export { projects, workExperience, skills }
+  export { projects, workExperience, skills, education }

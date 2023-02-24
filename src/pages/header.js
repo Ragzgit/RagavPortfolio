@@ -11,7 +11,7 @@ function Header() {
         </div>
         <ul id="menu" className="shadow">
             {headers.map((header) => <li key={nanoid()}>
-                <a href={`${header}`}>{_.startCase(header)}</a>
+                <a href={`#${header}`}>{_.startCase(header)}</a>
             </li>)}
         </ul>
         </header>
