@@ -269,7 +269,15 @@ header {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 5px 0;
+    background-color: $base-color;
+    h2{
+        color: $background;
+        display: inline;
+    }
+    .fa {
+        font-size: xx-large;
+    }
 }
 
 .copyright {
@@ -301,7 +309,7 @@ footer {
 }
 
 .social {
-    text-align: right;
+    text-align: center;
 
     ul {
         margin: 5px 0 0 0;
@@ -320,7 +328,7 @@ footer {
         padding: 10px;
 
         &:hover {
-            color: $base-color;
+            color: whitesmoke;
         }
     }
 }
@@ -770,7 +778,7 @@ footer {
 */
 
 #contact {
-    padding: 50px 15px;
+    // padding: 50px 15px;
     background: $base-color;
     text-align: center;
 

@@ -11,7 +11,7 @@ function Intro() {
     <div id="lead-overlay"></div>
 
     <div id="lead-down">
-        <span onClick={() => window.location.replace("/#about")}>
+        <span onClick={() => window.location.replace("https://ragzgit.github.io/RagavPortfolio/#about")}>
             <i className="fa fa-chevron-down" aria-hidden="true"></i>
         </span>
     </div>
