@@ -23,6 +23,9 @@
 
 // Define base and accent colors
 $base-color: #3498db;
+;
+
+// #3380c5
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -271,13 +274,16 @@ header {
 footer {
     padding: 5px 0;
     background-color: $base-color;
-    h2{
-        color: $background;
-        display: inline;
+    // .fa {
+    //     font-size: xx-large;
+    // }
+    #to-top {
+        color: whitesmoke;
+        i {
+            color: whitesmoke;
+        }
     }
-    .fa {
-        font-size: xx-large;
-    }
+    
 }
 
 .copyright {
@@ -391,7 +397,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/common-bg.svg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
