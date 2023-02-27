@@ -272,18 +272,7 @@ header {
 }
 
 footer {
-    padding: 5px 0;
-    background-color: $base-color;
-    // .fa {
-    //     font-size: xx-large;
-    // }
-    #to-top {
-        color: whitesmoke;
-        i {
-            color: whitesmoke;
-        }
-    }
-    
+    padding: 50px 0;    
 }
 
 .copyright {
@@ -334,7 +323,7 @@ footer {
         padding: 10px;
 
         &:hover {
-            color: whitesmoke;
+            color: $base-color;
         }
     }
 }

@@ -4,11 +4,11 @@ function Footer() {
     return ( <footer>
         <div class="container">
             <div class="row">
-                {/* <div class="col-sm-5 copyright">
+                <div class="col-sm-5 copyright">
                     <p>
                         Copyright &copy; <span id="current-year">2023</span> Ragavan Srinivasan
                     </p>
-                </div> */}
+                </div>
                 <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
