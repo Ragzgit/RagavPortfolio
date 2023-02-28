@@ -1,20 +1,20 @@
 import React from 'react';
 
 function Footer() {
-    return ( <footer>
+    return ( <footer id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5 copyright">
+                {/* <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2023</span> Ragavan Srinivasan
+                    Copyright © 2023 Ragavan Srinivasan
                     </p>
-                </div>
-                <div class="col-sm-2 top">
+                </div> */}
+                {/* <div class="col-sm-2 top">
                     <span id="to-top">
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
-                </div>
-                <div class="col-sm-5 social">
+                </div> */}
+                <div class="social">
                     <ul>
                         <li>
                             <a href="mailto:rsriniv9@gmu.edu" ><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
