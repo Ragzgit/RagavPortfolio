@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 function Intro() {
     return ( <div id="lead">
@@ -11,9 +12,12 @@ function Intro() {
     <div id="lead-overlay"></div>
 
     <div id="lead-down">
-        <span onClick={() => window.location.replace("https://ragzgit.github.io/RagavPortfolio/#about")}>
-            <i className="fa fa-chevron-down" aria-hidden="true"></i>
+    <Link to="about" smooth={true} duration={600}>
+        <span>
+            <i className="fa fa-chevron-down" aria-hidden="true">     
+            </i>
         </span>
+    </Link>
     </div>
 </div> );
 }
