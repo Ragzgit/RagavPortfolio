@@ -20,10 +20,10 @@ function Footer() {
                             <a href="mailto:rsriniv9@gmu.edu" ><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/Ragzgit" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/ragavan-srinivasan-25a7bb146/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         
                     </ul>

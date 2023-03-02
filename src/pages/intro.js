@@ -13,7 +13,7 @@ function Intro() {
 
     <div id="lead-down">
     <Link to="about" smooth={true} duration={600}>
-        <span>
+        <span style={{color: "whitesmoke"}}>
             <i className="fa fa-chevron-down" aria-hidden="true">     
             </i>
         </span>
