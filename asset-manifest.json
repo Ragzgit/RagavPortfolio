@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/RagavProfile/static/css/main.f9968d02.css",
+    "main.js": "/RagavProfile/static/js/main.1781b4b4.js",
+    "static/js/787.ff8a33df.chunk.js": "/RagavProfile/static/js/787.ff8a33df.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.6.3": "/RagavProfile/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
+    "static/media/fontawesome-webfont.ttf?v=4.6.3": "/RagavProfile/static/media/fontawesome-webfont.f0af1680f082547a7aae.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.6.3": "/RagavProfile/static/media/fontawesome-webfont.f7f1738ca345185e0185.woff",
+    "static/media/fontawesome-webfont.eot": "/RagavProfile/static/media/fontawesome-webfont.09b9015b1ecaf95655b1.eot",
+    "static/media/fontawesome-webfont.woff2?v=4.6.3": "/RagavProfile/static/media/fontawesome-webfont.0317d582b93c20f68e05.woff2",
+    "static/media/common-bg.svg": "/RagavProfile/static/media/common-bg.9878fdbb0d963009b072.svg",
+    "index.html": "/RagavProfile/index.html",
+    "main.f9968d02.css.map": "/RagavProfile/static/css/main.f9968d02.css.map",
+    "main.1781b4b4.js.map": "/RagavProfile/static/js/main.1781b4b4.js.map",
+    "787.ff8a33df.chunk.js.map": "/RagavProfile/static/js/787.ff8a33df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9968d02.css",
+    "static/js/main.1781b4b4.js"
+  ]
+}
