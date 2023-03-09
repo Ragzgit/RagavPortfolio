@@ -23,6 +23,7 @@
 
 // Define base and accent colors
 $base-color: #3498db;
+    // $base-color: rgb(51, 113, 255);
 ;
 
 // #3380c5
@@ -394,6 +395,24 @@ footer {
     overflow: hidden;
 }
 
+@keyframes move-left-to-center {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(0%);
+    }
+}
+
+@keyframes move-right-to-center {
+    0% {
+      transform: translateX(100%);
+    }
+    50% {
+      transform: translateX(0%);
+    }
+}
+
 #lead-content {
     position: absolute;
     z-index: 10;
@@ -408,11 +427,14 @@ footer {
 
     h1 {
         color: #fff;
+        // color: $base-color;
         font-weight: 700;
         font-size: 3em;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
+        animation: move-left-to-center 2s ease-in-out;
+          
     }
 
     h2 {
@@ -421,6 +443,7 @@ footer {
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
+        animation: move-right-to-center 2s ease-in-out;
     }
 }
 
@@ -433,6 +456,7 @@ footer {
     bottom: 0;
     left: 0;
     background: rgba($base-color-hover, 0.8);
+    // background: rgb(26, 32, 44);
     z-index: 1;
 }
 
