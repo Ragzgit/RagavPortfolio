@@ -1,11 +1,20 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import ReactTypingEffect from 'react-typing-effect';
 
 function Intro() {
     return ( <div id="lead">
     <div id="lead-content">
         <h1>Ragavan Srinivasan</h1>
-        <h2>Software Engineer</h2>
+        <h2>
+            <ReactTypingEffect
+            text={["Software Engineer", "Frontend Developer", 'Fullstack Engineer']}
+            speed={200}
+            typingDelay={500}
+            eraseDelay={1000}
+        />
+      </h2>
+        {/* <h2>Software Engineer</h2> */}
         <a style={{textDecoration: "none"}}href="https://drive.google.com/file/d/1YsJZK2TyaI7UnXn-wjyBWOsFLsKMgV75/view?usp=share_link" target="_blank" className="btn-rounded-white">Download Resume</a>
     </div>
 

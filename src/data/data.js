@@ -26,6 +26,7 @@ const workExperience = [
 
 const projects = [
     {
+      image: '../Assets/project1.jpg',
       name: 'Transportation guidance system',
       description:
         'Application to help users decide on the best cost/comfort/budget efficient way to reach a destination',
@@ -39,6 +40,7 @@ const projects = [
       ]
     },
     {
+      image: '../Assets/project2.jpg',
       name: 'Feedback portal',
       description:
         'Highly scalable web application for the recreational members to submit their feedback',
@@ -53,6 +55,7 @@ const projects = [
       ]
     },
     {
+      image: '../Assets/project3.jpg',
       name: 'Exploratory Data Analysis',
       description:'Explored EDGAR data and created a report based on the performed analysis',
       stack: ['Python', 'Google Collab'],

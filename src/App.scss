@@ -443,6 +443,9 @@ footer {
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
+    }
+
+    a {
         animation: move-right-to-center 2s ease-in-out;
     }
 }
@@ -697,6 +700,7 @@ footer {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
+    background-color: darkgray;
 
     h2 {
         color: $heading;
@@ -715,6 +719,11 @@ footer {
 
 .project-image {
     float: left;
+    height: 200px;
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 
 .project-info {

@@ -1,17 +1,24 @@
 import React from 'react';
 import { projects } from '../data/data';
 import { nanoid } from 'nanoid';
+import project1 from '../Assets/project1.jpg'
+import project2 from '../Assets/project2.jpg';
+import project3 from '../Assets/project3.jpg';
+
+const projectImg = [project1, project2, project3];
 
 function Project() {    
-    return ( <div id="projects" className="background-alt">
+    return ( <div id="projects" className="">
     <h2 className="heading">Projects</h2>
     <div className="container">
         <div className="row">
-            {projects.map(project => (
-                <div className="project shadow-large no-image" key={nanoid(5)}>
-                {/* <div class="project-image">
-                    <img src="images/project.jpg" alt={project.name}/>
-                </div> */}
+            {projects.map((project, index) => (
+                
+                <div className="project shadow-large" key={nanoid(5)}>
+                    {console.log(index+1)}
+                <div className="project-image">
+                    <img src={projectImg[index]} alt={project.name}/>
+                </div>
                 <div className="project-info">
                     <h3>{project.name}</h3>
                     <p>
@@ -20,7 +27,7 @@ function Project() {
                     <ul>
                         {project.points.map(list => <li key={nanoid(5)}>{list}</li>)}
                     </ul>
-                    <a href="#">View Project</a>
+                    <a href="#" style={{textDecoration: "none"}}>View Project</a>
                 </div>
             </div>
             ))} 
