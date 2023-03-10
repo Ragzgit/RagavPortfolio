@@ -15,7 +15,6 @@ function Project() {
             {projects.map((project, index) => (
                 
                 <div className="project shadow-large" key={nanoid(5)}>
-                    {console.log(index+1)}
                 <div className="project-image">
                     <img src={projectImg[index]} alt={project.name}/>
                 </div>
