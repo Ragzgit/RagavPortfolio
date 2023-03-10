@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RagavProfile/static/css/main.fbcce9fe.css",
-    "main.js": "/RagavProfile/static/js/main.b7fe1e0b.js",
+    "main.css": "/RagavProfile/static/css/main.29febfb4.css",
+    "main.js": "/RagavProfile/static/js/main.ef3b266e.js",
     "static/js/787.ff8a33df.chunk.js": "/RagavProfile/static/js/787.ff8a33df.chunk.js",
     "static/media/project3.jpg": "/RagavProfile/static/media/project3.fba04428201cc4713b6a.jpg",
     "static/media/project1.jpg": "/RagavProfile/static/media/project1.06e3864a46fddb3eb324.jpg",
@@ -13,12 +13,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.6.3": "/RagavProfile/static/media/fontawesome-webfont.0317d582b93c20f68e05.woff2",
     "static/media/common-bg.svg": "/RagavProfile/static/media/common-bg.9878fdbb0d963009b072.svg",
     "index.html": "/RagavProfile/index.html",
-    "main.fbcce9fe.css.map": "/RagavProfile/static/css/main.fbcce9fe.css.map",
-    "main.b7fe1e0b.js.map": "/RagavProfile/static/js/main.b7fe1e0b.js.map",
+    "main.29febfb4.css.map": "/RagavProfile/static/css/main.29febfb4.css.map",
+    "main.ef3b266e.js.map": "/RagavProfile/static/js/main.ef3b266e.js.map",
     "787.ff8a33df.chunk.js.map": "/RagavProfile/static/js/787.ff8a33df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbcce9fe.css",
-    "static/js/main.b7fe1e0b.js"
+    "static/css/main.29febfb4.css",
+    "static/js/main.ef3b266e.js"
   ]
 }
