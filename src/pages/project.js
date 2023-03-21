@@ -19,14 +19,14 @@ function Project() {
                     <img src={projectImg[index]} alt={project.name}/>
                 </div>
                 <div className="project-info">
-                    <h3>{project.name}</h3>
+                    <h3><a href="#" style={{textDecoration: "none", pointerEvents: "none", cursor: "default"}}>{project.name}</a></h3>
                     <p>
                         {project.description}
                     </p>
                     <ul>
                         {project.points.map(list => <li key={nanoid(5)}>{list}</li>)}
                     </ul>
-                    <a href="#" style={{textDecoration: "none"}}>View Project</a>
+                    {/* <a href="#" style={{textDecoration: "none"}}>View Project</a> */}
                 </div>
             </div>
             ))} 

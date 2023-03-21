@@ -11,7 +11,7 @@ function Header() {
             <span>Close</span> <i className="fa fa-times" aria-hidden="true"></i>
         </div> */}
         <ul id="menu" className="shadow">
-            {headers.map((header) => <li key={nanoid()}>
+            {headers.map((header) => <li key={nanoid(4)}>
             <Link to={header} smooth={true} duration={600}>  
                 {/* <a href={`#${header}`}>{_.startCase(header)}</a> */}
                 {_.startCase(header)}

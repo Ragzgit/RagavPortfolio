@@ -5,8 +5,8 @@ function Education() {
     return ( 
         <div id="education">
             <h2 className="heading">Education</h2>
-            { education.map(edu => (
-                <div className="education-block">
+            { education.map((edu, ind) => (
+                <div className="education-block" key={ind+edu}>
                 <h3>{edu.university}</h3>
                 <span className="education-date">{edu.date}</span>
                 <h4>{edu.degree}</h4>
