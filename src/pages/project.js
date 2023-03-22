@@ -19,7 +19,7 @@ function Project() {
                     <img src={projectImg[index]} alt={project.name}/>
                 </div>
                 <div className="project-info">
-                    <h3><a href="#" style={{textDecoration: "none", pointerEvents: "none", cursor: "default"}}>{project.name}</a></h3>
+                    <h3><a className={project.sourceCode.length < 2 ? "noClick" : ""} href={project.sourceCode} target="_blank" style={{textDecoration: "none"}}>{project.name}</a></h3>
                     <p>
                         {project.description}
                     </p>

@@ -25,8 +25,21 @@ const workExperience = [
   ];
 
 const projects = [
+  {
+    image: '../Assets/project1.jpg',
+    name: 'Admin portal for Ecommerce application',
+    description:'Web portal for the admins to login and make changes to products in Warehouse',
+    stack: ['Node.js', 'React', 'HTML', 'SASS', 'MySQL workbench', 'Git', 'Local Storage', 'AWS EC2', 'AWS RDS'],
+    sourceCode: 'https://github.com/Ragzgit/products-admin-frontend-client/',
+    points:[
+      'Created MySQL database to store product information',
+      'Developed a backend application using express and node.js that interacts with the DB',
+      'Designed a UI client that uses the REST API endpoints created by the backend server to add, update and delete products' ,
+      'Incorporated authentication and authorization features to prevent illicit access to the portal'       
+    ]  
+  }, 
     {
-      image: '../Assets/project1.jpg',
+      image: '../Assets/project2.jpg',
       name: 'Transportation guidance system',
       description:
         'Application to help users decide on the best cost/comfort/budget efficient way to reach a destination',
@@ -40,7 +53,7 @@ const projects = [
       ]
     },
     {
-      image: '../Assets/project2.jpg',
+      image: '../Assets/project3.jpg',
       name: 'Feedback portal',
       description:
         'Highly scalable web application for the recreational members to submit their feedback',
@@ -54,18 +67,7 @@ const projects = [
         'Used Hibernate ORM for persisting data in AWS RDS'
       ]
     },
-    {
-      image: '../Assets/project3.jpg',
-      name: 'Exploratory Data Analysis',
-      description:'Explored EDGAR data and created a report based on the performed analysis',
-      stack: ['Python', 'Google Collab'],
-      sourceCode: '#',
-      points:[
-        'Collected data by web scrapping from EDGAR official website URL',
-        'Performed Data wrangling on the raw data',
-        'Analyzed and created a report after extracting meaningful insights and patterns on the preprocessed data'        
-      ]  
-    }
+    
 ];
 
 const education = [{

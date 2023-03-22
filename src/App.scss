@@ -129,6 +129,9 @@ body {
   
 /* new added end*/
 
+.tempcheck{
+    transform: scale(1.8);
+}
 
 // No JS styles
 .no-js {
@@ -706,6 +709,11 @@ footer {
         color: $heading;
         margin-bottom: 50px;
     }
+
+    .noClick{
+        pointer-events: none; 
+        cursor: default;
+    }
 }
 
 .project {
@@ -1060,6 +1068,7 @@ footer {
     footer {
         text-align: center;
     }
+
 
     .social {
         text-align: center;
