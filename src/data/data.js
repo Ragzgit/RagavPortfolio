@@ -4,23 +4,23 @@ const workExperience = [
     company: 'Tata Consultancy Services',
     duration: 'February 2018 - September 2020',
     description:
-      'Developed highly responsive user interface components using react concepts by following Test-driven development using Jest for writing unit test. Created multiple experiment models (A/B and multi-variant tests) that enhanced user interaction across the site. Automated test process by incorporating cypress in UI testing, thereby reducing bug tasks considerably. Mentored new members',
-    stack: ['React,', 'Redux,', 'Node.js,', 'HTML,', 'CSS,', 'Jest,', 'Cypress,', 'Falcor,', 'Jenkins,', 'Grunt,', 'Git,', 'Jira,', 'Webpack,', 'Optimizely']
+      'Worked on back-end web development and designed REST APIs for an internal tool to track remote login hours. Developed highly responsive user interface components using React, following Test-driven development (TDD) principles. Conducted multiple A/B and multi-variant tests to improve user interaction across the site, resulting in better user engagement. Automated the testing process by incorporating Cypress in UI testing, reducing bug and enhancing overall quality of the product. Actively participated in all phases of software development life cycle (SDLC), from requirement analysis to implementation. Mentored new team members to accelerate their learning curve on the project.',
+    stack: ['React,', 'Redux,', 'Node.js,', 'Java/J2EE', 'Spring Boot', 'microservices', 'Swagger', 'MySQL', 'Hibernate', 'HTML,', 'CSS,', 'Jest,', 'Cypress,', 'Falcor,', 'Jenkins,', 'Grunt,', 'Git,', 'Jira,', 'Webpack,', 'Optimizely']
   },
   {
     name: 'Systems Engineer',
     company: 'Tata Consultancy Services',
     duration: 'January 2016 - February 2018',
-    description: 'Worked with production servers to ensure secure data exchange between different B2B systems while liasing with different cross functional teams. Reduced active incidents by around 30% by volunteering to develop a dashboard and an alert system on legacy production. Orchestrated migration activity from standalone Linux server to the virtual environment.',
-    stack: ['Linux', 'Shell scripting', 'Javascript']
+    description: 'Deployed Java applications and web services on WebLogic Server, ensuring high availability and performance. Collaborated with cross-functional teams to fix issues in a production environment to ensure high stability and availability. Developed a dashboard and an alert system for legacy servers, leading to a 30% reduction in active incidents and improving the overall system reliability. Contributed to the design and implementation of encryption between multiple applications, ensuring secure data transmission. Migrated standalone Linux server to the virtual environment ensuring minimal downtime and smooth transition of services.',
+    stack: ['Java/J2EE', 'Spring Boot', 'WebLogic', 'PostgreSQL', 'HTML', 'CSS', 'JavaScript', 'Git', 'Linux', 'Shell scripting', 'Javascript']
   },
   
   {
     name: 'Project Management Intern(Technology)',
     company: 'Sands Capital Management Ltd.',
     duration: 'June 2022 - December 2022',
-    description: 'Streamlined and standardized workflow and project management templates across all the product teams and improved transparency by developing management dashboards. Helped with gathering requirements, writing user stories and with resource and dependnecy management. Automated the process of improving data accuracy of historical data in the Data warehouse',
-    stack: ['python', 'Power-BI', 'Confluence']
+    description: 'Streamlined workflows and standardized project management templates across all product teams, improving project execution. Improved transparency and visibility into project status by developing management dashboards. Conducted requirement gathering and created user stories for product development, resulting in the successful delivery of high-quality products. Collaborated with cross-functional teams to ensure efficient project execution, including resource and dependency management. Automated the process of cleansing historical data in Snowflake Data Warehouse.',
+    stack: ['python', 'NumPy', 'Pandas', 'Jira', 'Power-BI', 'Confluence']
   }
   ];
 
@@ -57,14 +57,15 @@ const projects = [
       name: 'Feedback portal',
       description:
         'Highly scalable web application for the recreational members to submit their feedback',
-      stack: ['Java', 'Spring-Boot', 'Hibernate', 'AWS-RDS', 'MySQL', 'Angualr', 'Apache Kafka', 'Google Kubernetes Engine', 'GCP'],
+      stack: ['Java', 'Spring-Boot', 'Hibernate', 'REST API', 'AWS-RDS', 'MySQL', 'Angualr', 'Apache Kafka', 'Google Kubernetes Engine', 'GCP'],
       sourceCode: '#',
       livePreview: '#',
       points:[
-        'Designed and created RESTful webservices',
-        'Containerized and deployed the applications on Kubernetes (used GKE)',
-        'Incorporated Kafka brokers to implement a real-time data pipeline',
-        'Used Hibernate ORM for persisting data in AWS RDS'
+        'Designed and implemented RESTful web services to facilitate communication between the front-end and back-end',
+        'Utilized Hibernate Object-Relational Mapping (ORM) to connect with AWS RDS for data persistence',
+        'Containerized and deployed the application on Kubernetes using Google Kubernetes Engine (GKE)',
+        'Created a single-page web application using Angular for the front-end',
+        'Developed Kafka producer-consumer module to create a real time data pipeline',
       ]
     },
     

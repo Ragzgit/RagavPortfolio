@@ -8,7 +8,7 @@ function Intro() {
         <h1>Ragavan Srinivasan</h1>
         <h2>
             <ReactTypingEffect
-            text={["Software Engineer", "Frontend Developer", 'Fullstack Engineer']}
+            text={["Software Engineer", "Frontend Developer", 'Fullstack Engineer', "Technical Project Manager"]}
             speed={200}
             typingDelay={500}
             eraseDelay={1000}
