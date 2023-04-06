@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RagavProfile/static/css/main.dcdb76ce.css",
+    "main.css": "/RagavProfile/static/css/main.de292795.css",
     "main.js": "/RagavProfile/static/js/main.02f00eab.js",
     "static/js/787.ff8a33df.chunk.js": "/RagavProfile/static/js/787.ff8a33df.chunk.js",
     "static/media/project1.jpg": "/RagavProfile/static/media/project1.fba04428201cc4713b6a.jpg",
@@ -13,12 +13,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.6.3": "/RagavProfile/static/media/fontawesome-webfont.0317d582b93c20f68e05.woff2",
     "static/media/common-bg.svg": "/RagavProfile/static/media/common-bg.9878fdbb0d963009b072.svg",
     "index.html": "/RagavProfile/index.html",
-    "main.dcdb76ce.css.map": "/RagavProfile/static/css/main.dcdb76ce.css.map",
+    "main.de292795.css.map": "/RagavProfile/static/css/main.de292795.css.map",
     "main.02f00eab.js.map": "/RagavProfile/static/js/main.02f00eab.js.map",
     "787.ff8a33df.chunk.js.map": "/RagavProfile/static/js/787.ff8a33df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcdb76ce.css",
+    "static/css/main.de292795.css",
     "static/js/main.02f00eab.js"
   ]
 }
