@@ -4,8 +4,8 @@ const workExperience = [
     company: 'Tata Consultancy Services',
     duration: 'February 2018 - September 2020',
     description:
-      'Worked on back-end web development and designed REST APIs for an internal tool to track remote login hours. Developed highly responsive user interface components using React, following Test-driven development (TDD) principles. Conducted multiple A/B and multi-variant tests to improve user interaction across the site, resulting in better user engagement. Automated the testing process by incorporating Cypress in UI testing, reducing bug and enhancing overall quality of the product. Actively participated in all phases of software development life cycle (SDLC), from requirement analysis to implementation. Mentored new team members to accelerate their learning curve on the project.',
-    stack: ['React,', 'Redux,', 'Node.js,', 'Java/J2EE', 'Spring Boot', 'microservices', 'Swagger', 'MySQL', 'Hibernate', 'HTML,', 'CSS,', 'Jest,', 'Cypress,', 'Falcor,', 'Jenkins,', 'Grunt,', 'Git,', 'Jira,', 'Webpack,', 'Optimizely']
+      'Developed highly responsive user interface components using React and Redux, following Test-driven development (TDD). Worked on back-end development using Spring and container technologies to ensure high availability of microservices. Developed and designed REST APIs for an internal tool to track remote login hours which resulted in 60% increase in usage. Architected solutions with CI/CD, and actively participated in all phases of software development life cycle (SDLC). Conducted multiple A/B and multi-variant tests to improve user interaction across the site, resulting in better user engagement. Automated the testing process by incorporating Cypress in UI testing, reducing bug and enhancing overall quality of the product. Actively participated in all phases of software development life cycle (SDLC), from requirement analysis to implementation. Mentored new team members to accelerate their learning curve on the project.',
+    stack: ['React,', 'Redux,', 'Node.js,', 'Express', 'Java/J2EE', 'Spring Boot', 'microservices', 'Swagger', 'MySQL', 'Hibernate', 'HTML,', 'CSS,', 'Jest,', 'Cypress,', 'Falcor,', 'Jenkins,', 'Grunt,', 'Git,', 'Jira,', 'Webpack,', 'Optimizely']
   },
   {
     name: 'Systems Engineer',
@@ -19,7 +19,7 @@ const workExperience = [
     name: 'Project Management Intern(Technology)',
     company: 'Sands Capital Management Ltd.',
     duration: 'June 2022 - December 2022',
-    description: 'Streamlined workflows and standardized project management templates across all product teams, improving project execution. Improved transparency and visibility into project status by developing management dashboards. Conducted requirement gathering and created user stories for product development, resulting in the successful delivery of high-quality products. Collaborated with cross-functional teams to ensure efficient project execution, including resource and dependency management. Automated the process of cleansing historical data in Snowflake Data Warehouse.',
+    description: 'Automated the process of cleansing historical data in Snowflake Data Warehouse. Streamlined workflows and standardized project management templates across all product teams, improving project execution. Improved transparency and visibility into project status by developing management dashboards. Conducted requirement gathering and created user stories for product development, resulting in the successful delivery of high-quality products. Collaborated with cross-functional teams to ensure efficient project execution, including resource and dependency management.',
     stack: ['python', 'NumPy', 'Pandas', 'Jira', 'Power-BI', 'Confluence']
   }
   ];
@@ -61,8 +61,7 @@ const projects = [
       sourceCode: '#',
       livePreview: '#',
       points:[
-        'Designed and implemented RESTful web services to facilitate communication between the front-end and back-end',
-        'Utilized Hibernate Object-Relational Mapping (ORM) to connect with AWS RDS for data persistence',
+        'Designed and implemented RESTful and used Hibernate for Object-Relational Mapping (ORM) to connect with AWS RDS',
         'Containerized and deployed the application on Kubernetes using Google Kubernetes Engine (GKE)',
         'Created a single-page web application using Angular for the front-end',
         'Developed Kafka producer-consumer module to create a real time data pipeline',
