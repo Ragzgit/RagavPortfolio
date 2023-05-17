@@ -9,7 +9,7 @@ function About() {
             </div>
             <div className="col-md-8">
                 <p>
-                   I am a Software Engineer with 4+ years of experience with wide range of experience in developing interactive and highly scalable web application. I recently graduaged from George Mason University with Master's in Computer Science. I worked on various projects designing and developing Restful Web Services, containerizing, and deploying applications in GKE, incorporating Apache Kafka as a message broker, using Amazon RDS for data persistence and graph algorithm related prjects.
+                   I am AWS certified Associate Solutions Architect with 4+ years of Software Engineering experience especially with respect to developing interactive and highly scalable web application and RESTful web services. I recently graduaged from George Mason University with Master's in Computer Science. I worked on various projects ranging from designing and developing Restful Web Services, containerizing & deploying applications in GKE, incorporating Apache Kafka as a message broker to create real time data pipeline, and using both SQL and NoSQL databases for data persistance. 
                 </p>
             </div>
         </div>
